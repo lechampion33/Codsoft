@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">AK</div>
+        <ul class="nav-links">
+            <li><a href="#" class="nav-link" onclick="scrollToAbout()">About</a></li>
+            <li><a href="#" class="nav-link" onclick="scrollToSkill()">Skills</a></li>
+            <li><a href="#" class="nav-link" onclick="scrollToProject()">Projects</a></li>
+            <li><a href="#" class="nav-link" onclick="scrollToContact()">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="profile-section">
+    <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+        <div class="left-section">
+            <p>Hi There,</p>
+            <p>I'am <span class="highlight-text">Ajith Kumar</span></p>
+            <h2 class="typewriter"> Web Designer</h2>
+            <button class="contact-button" onclick="scrollToContact()">Contact Me</button>
+        </div>
+        <div class="right-section">
+            <img src="./assests/codsoftperson.png" alt="Profile Image">
+        </div>
+    </section>
+    <div id="about_container" class="about_container">
+        <div class="about_contents">
+            <section class="imagesection">
+                <img src="./assests/codsoftaboutimg.jpg" alt="about Image">
+            </section>
+            <section class="infosection">
+                <h1>About Me</h1>
+                <h2>Professional Web Designer & Developer</h2>
+                <p>
+                    Hi there! I'm AKL, a passionate web developer with a love for creating innovative and user-friendly websites.
+                    With a solid background in front-end and back-end technologies, I specialize in turning ideas into beautifully crafted,
+                    functional websites that provide an exceptional user experience.
+                </p>
+                <p>
+                    Let's collaborate and bring your ideas to life! Feel free to explore my portfolio to see some of my work. If you have any
+                    questions or projects you'd like to discuss, don't hesitate to get in touch.
+                </p>
+             <div class="cvbutton">
+                <a href="./assests/resume.pdf" download target="_blank">Download CV</a>
+             </div>          
+        </div>
+    </div>
+    <div id="skill_section" class="skills">
+        <div class="main-title">
+            <h1>My Skills</h1>
+            <p>
+              As a seasoned web developer, I possess strong proficiency in HTML, CSS, and JavaScript. My expertise extends to front-end frameworks such as React and Vue.js, as well as back-end technologies like Node.js. I am experienced in building responsive and user-friendly interfaces, and I have a solid understanding of version control systems such as Git. Additionally, my skills include database management using SQL and MongoDB.
+            </p>            
+        </div>
+        <div class="row">
+            <section class="col">
+                <div class="sub-title">
+                    <h2>Programming Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">HTML</div>
+                        <div class="progress-bar" value="94%">
+                            <div class="progress-line" style="max-width: 94%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">CSS</div>
+                        <div class="progress-bar" value="84%">
+                        <div class="progress-line" style="max-width: 84%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">JavaScript</div>
+                        <div class="progress-bar" value="74%">
+                        <div class="progress-line" style="max-width: 74%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">REST API</div>
+                        <div class="progress-bar" value="64%">
+                        <div class="progress-line" style="max-width: 64%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="col">
+                <div class="sub-title">
+                    <h2>Designing Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">PhotoShop</div>
+                        <div class="progress-bar" value="86%">
+                        <div class="progress-line" style="max-width: 86%"></div>
+                    </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Illustrator</div>
+                        <div class="progress-bar" value="70%">
+                        <div class="progress-line" style="max-width: 70%;"></div>
+                    </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Figma</div>
+                        <div class="progress-bar" value="92%">
+                        <div class="progress-line" style="max-width: 92%;"></div>
+                    </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Responsive Design</div>
+                        <div class="progress-bar" value="74%">
+                        <div class="progress-line" style="max-width: 74%;"></div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+        <div id="projectsection" class="project">
+            <div class="project-main-title">
+                <h1>My Projects</h1>
+                <p>
+                  Checkout my recent projects and preview of those projects on the github link provided below
+                </p>            
+            </div>
+            <section class="projects" id="projects">
+                <h2 class="projects-title">Some of my Recent Projects</h2>
+                <div class="projects-container">
+                  <div class="project-container project-card">
+                    <img
+                      src="./assests/picshare.jpg"
+                      alt="picshare"
+                      loading="lazy"
+                      class="project-pic"
+                    />
+                    <h3 class="project-title">Picshare</h3>
+                    <p class="project-details">
+                        Picshare is a social media platform that allows users to discover and save ideas for various interests to themed boards. Users can explore content created by others and organize their own collections .
+                    </p>
+                    <a href="https://github.com/lechampion33" target="_blank" class="project-link">Check it Out</a>
+                  </div>
+                  <div class="project-container project-card">
+                    <img
+                      src="./assests/cricmatrix.png"
+                      alt="cricmatrix"
+                      loading="lazy"
+                      class="project-pic"
+                    />
+                    <h3 class="project-title">Cricmatrix</h3>
+                    <p class="project-details">
+                        CricMatrix is a comprehensive cricket statistics website that stands as a go-to resource for cricket enthusiasts seeking in-depth and up-to-date information on the sport. Renowned for its meticulous data compilation and user-friendly interface.
+                    </p>
+                    <a href="https://github.com/lechampion33" target="_blank" class="project-link">Check it Out</a>
+                  </div>
+                  <div class="project-container project-card">
+                    <img
+                      src="./assests/flashfunds.png"
+                      alt="flashfunds"
+                      loading="lazy"
+                      class="project-pic"
+                    />
+                    <h3 class="project-title">Flashfunds</h3>
+                    <p class="project-details">
+                        FlashFunds is a dynamic  lending platform designed to empower users with seamless access to financial resources. FlashFunds facilitates a user-friendly environment for borrowers and lenders to engage in mutually beneficial transactions.
+                    </p>
+                    <a href="https://github.com/lechampion33" target="_blank" class="project-link">Check it Out</a>
+                  </div>
+                </div>
+              </section>
+        </div>
+        <div id="contact" class="contact">
+            <div class="contact-container">
+                    <div class="contact-left">
+                       <h1 class="sub-title">Contact Me</h1>
+                       <p><i class="fa-solid fa-paper-plane"></i>akjstyles003@gmail.com</p>
+                       <p><i class="fa-solid fa-phone"></i>9025453480</p>
+                       <div class="social-icons">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/explore" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/lechampion33" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+                       </div>
+                       <a href="resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet" onsubmit="return submitForm()">
+                          <input type="text" name="Name" id="nameInput" placeholder="Your Name" required>
+                          <input type="email" name="Email" id="emailInput" placeholder="Your Email" required>
+                          <textarea name="Message" id="messageInput" rows="6" placeholder="Your Message"></textarea>
+                          <button type="submit" class="contact-submit">Submit</button>
+                        </form>
+                        <div id="submit-message"></div>
+                      </div>                    
+                </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+              <div class="copyright">
+                <p>&copy; 2023 AK. All Rights Reserved.</p>
+              </div>
+              <div class="socials-links">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/explore" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/yourusername" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </footer>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwm5y-7jtMpbz9xHqSerImzXn__-wXAwRLTivXPIBGuXvHwQaMdSaoKtc2vm8yQXuvE/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    <script>
+
+        function scrollToAbout() {
+            var aboutContainer = document.getElementById('about_container');
+            aboutContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+        function scrollToSkill() {
+            var aboutContainer = document.getElementById('skill_section');
+            aboutContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+        function scrollToProject() {
+            var aboutContainer = document.getElementById('projectsection');
+            aboutContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+        function scrollToContact() {
+            var aboutContainer = document.getElementById('contact');
+            aboutContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+        function submitForm() {
+    displayMessage("Form submitted successfully!");
+    clearForm();
+    return false;
+  }
+
+  function displayMessage(message) {
+    var messageContainer = document.getElementById("submit-message");
+    messageContainer.innerHTML = message;
+    messageContainer.style.display = "block";
+    setTimeout(function () {
+      messageContainer.style.display = "none";
+    }, 3000);
+  }
+    </script>
+</body>
+</html>
